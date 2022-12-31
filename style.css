@@ -1,0 +1,72 @@
+ body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+	  background: rgb(192, 100, 50);
+      }
+      form {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: left;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button[type="button"] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+	   button[id="clear-button"] {
+        width: 100%;
+        background-color: red;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button[type="button"]:hover {
+        background-color: #45a049;
+      }
+      .card {
+        display: inline-block;
+        margin: 20px;
+        text-align: center;
+        padding:15px;
+        border: 0.5px solid #ccc;
+        border-radius: 8px;
+        width: 150px;
+  
+    box-shadow: 1px 9px 20px 0px black;
+      }
+	 
+.card div:first-of-type{
+    padding: 0 10px 10px 10px;
+	
+   }
+
+.card div:last-of-type{
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+      .name {
+        font-size: 24px;
+        font-weight: bold;
+      }
+	
